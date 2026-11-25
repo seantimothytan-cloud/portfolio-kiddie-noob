@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Name – Role</title>
+    <meta
+      name="Project"
+      content="One-sentence summary of who you are and what you do."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap"
+    />
+    <link rel="stylesheet" href="CSS.css" />
+  </head>
+  <body>
+    <!-- HEADER: logo left, nav + live clock right -->
+    <header class="site-header">
+      <a class="logo" href="#top">PROJECT</a>
+
+      <nav aria-label="Main">
+        <a href="#sean">sean</a>
+        <a href="#brainard">brainard</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <time class="clock" id="clock" aria-hidden="true"></time>
+    </header>
+
+    <main id="top">
+      <!-- 1. HERO: portrait, name, one-line pitch -->
+      <section class="hero">
+        <div
+          class="portrait"
+          role="img"
+          aria-label="Portrait placeholder"
+        ></div>
+        <h1>Your Name</h1>
+        <p class="pitch">
+          Your title, shaping [what you make] across [industry], [industry], and
+          [industry].
+        </p>
+      </section>
+
+      <!-- 2. IMAGE STRIP: looping row of tall project visuals -->
+      <section class="strip" aria-label="Selected visuals">
+        <div class="track" data-loop>
+          <div class="tile t1"></div>
+          <div class="tile t2"></div>
+          <div class="tile t3"></div>
+          <div class="tile t4"></div>
+          <div class="tile t5"></div>
+          <div class="tile t6"></div>
+        </div>
+      </section>
+
+      <!-- 3. TESTIMONIALS: looping row of quote cards -->
+      <section class="quotes" aria-label="Testimonials">
+        <div class="track" data-loop>
+          <figure class="quote">
+            <blockquote>Short quote about the quality of your work.</blockquote>
+            <figcaption>
+              <span class="avatar"></span>Client Name<small>Job title</small>
+            </figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>Short quote about how you collaborate.</blockquote>
+            <figcaption>
+              <span class="avatar"></span>Client Name<small>Job title</small>
+            </figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>Short quote about a result you delivered.</blockquote>
+            <figcaption>
+              <span class="avatar"></span>Client Name<small>Job title</small>
+            </figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>Short quote about working with you.</blockquote>
+            <figcaption>
+              <span class="avatar"></span>Client Name<small>Job title</small>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="sean" id="sean">
+       <link rel="stylesheet" href="CSS.css" />
+        <div class="panel">
+          <h2>Sean</h2>
+          <p>
+            Sean is a highly skilled and experienced professional with a strong
+            background in [industry/field]. With a passion for [specific area],
+            Sean has consistently delivered exceptional results for clients and
+            organizations alike.
+          </p>
+
+        </div>
+       
+      </section>
+
+      <!-- 4. FEATURED WORK: big linked project rows -->
+      <section class="work" id="work">
+        <h2>Work</h2>
+        <a class="project" href="#"
+          ><span class="thumb t2"></span
+          ><span class="title">Project One</span></a
+        >
+        <a class="project" href="#"
+          ><span class="thumb t4"></span
+          ><span class="title">Project Two</span></a
+        >
+        <a class="project" href="#"
+          ><span class="thumb t1"></span
+          ><span class="title">Project Three</span></a
+        >
+        <a class="project" href="#"
+          ><span class="thumb t5"></span
+          ><span class="title">Project Four</span></a
+        >
+      </section>
+
+      <!-- 5. SERVICES: what you do, 6 short blocks -->
+      <section class="services" id="about">
+        <h2>What I do</h2>
+        <div class="grid">
+          <article>
+            <h3>Service One</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+          <article>
+            <h3>Service Two</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+          <article>
+            <h3>Service Three</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+          <article>
+            <h3>Service Four</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+          <article>
+            <h3>Service Five</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+          <article>
+            <h3>Service Six</h3>
+            <p>
+              Two short sentences on what this covers and the outcome for the
+              client.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER: repeat nav + contact -->
+    <footer class="site-footer" id="contact">
+      <h2>Let’s work together</h2>
+      <a class="email" href="mailto:hello@example.com">hello@example.com</a>
+      <nav aria-label="Footer">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </footer>
+
+    <script src="JS.js"></script>
+  </body>
+</html>
